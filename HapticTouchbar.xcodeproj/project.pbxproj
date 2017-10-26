@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ED5AE721FA021B2002D0F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED5AE711FA021B2002D0F06 /* AppDelegate.swift */; };
+		8ED5AE741FA021B2002D0F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED5AE731FA021B2002D0F06 /* Assets.xcassets */; };
+		8ED5AE771FA021B2002D0F06 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED5AE751FA021B2002D0F06 /* MainMenu.xib */; };
+		8ED5AE821FA021B2002D0F06 /* HapticTouchbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED5AE811FA021B2002D0F06 /* HapticTouchbarTests.swift */; };
+		8ED5AE8D1FA021B2002D0F06 /* HapticTouchbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED5AE8C1FA021B2002D0F06 /* HapticTouchbarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ED5AE7E1FA021B2002D0F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ED5AE661FA021B2002D0F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ED5AE6D1FA021B2002D0F06;
+			remoteInfo = HapticTouchbar;
+		};
+		8ED5AE891FA021B2002D0F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ED5AE661FA021B2002D0F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ED5AE6D1FA021B2002D0F06;
+			remoteInfo = HapticTouchbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8ED5AE6E1FA021B2002D0F06 /* HapticTouchbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticTouchbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED5AE711FA021B2002D0F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8ED5AE731FA021B2002D0F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ED5AE761FA021B2002D0F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8ED5AE781FA021B2002D0F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED5AE7D1FA021B2002D0F06 /* HapticTouchbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticTouchbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED5AE811FA021B2002D0F06 /* HapticTouchbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticTouchbarTests.swift; sourceTree = "<group>"; };
+		8ED5AE831FA021B2002D0F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED5AE881FA021B2002D0F06 /* HapticTouchbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticTouchbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED5AE8C1FA021B2002D0F06 /* HapticTouchbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticTouchbarUITests.swift; sourceTree = "<group>"; };
+		8ED5AE8E1FA021B2002D0F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ED5AE6B1FA021B2002D0F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED5AE7A1FA021B2002D0F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED5AE851FA021B2002D0F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ED5AE651FA021B2002D0F06 = {
+			isa = PBXGroup;
+			children = (
+				8ED5AE701FA021B2002D0F06 /* HapticTouchbar */,
+				8ED5AE801FA021B2002D0F06 /* HapticTouchbarTests */,
+				8ED5AE8B1FA021B2002D0F06 /* HapticTouchbarUITests */,
+				8ED5AE6F1FA021B2002D0F06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ED5AE6F1FA021B2002D0F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ED5AE6E1FA021B2002D0F06 /* HapticTouchbar.app */,
+				8ED5AE7D1FA021B2002D0F06 /* HapticTouchbarTests.xctest */,
+				8ED5AE881FA021B2002D0F06 /* HapticTouchbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED5AE701FA021B2002D0F06 /* HapticTouchbar */ = {
+			isa = PBXGroup;
+			children = (
+				8ED5AE711FA021B2002D0F06 /* AppDelegate.swift */,
+				8ED5AE731FA021B2002D0F06 /* Assets.xcassets */,
+				8ED5AE751FA021B2002D0F06 /* MainMenu.xib */,
+				8ED5AE781FA021B2002D0F06 /* Info.plist */,
+			);
+			path = HapticTouchbar;
+			sourceTree = "<group>";
+		};
+		8ED5AE801FA021B2002D0F06 /* HapticTouchbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				8ED5AE811FA021B2002D0F06 /* HapticTouchbarTests.swift */,
+				8ED5AE831FA021B2002D0F06 /* Info.plist */,
+			);
+			path = HapticTouchbarTests;
+			sourceTree = "<group>";
+		};
+		8ED5AE8B1FA021B2002D0F06 /* HapticTouchbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8ED5AE8C1FA021B2002D0F06 /* HapticTouchbarUITests.swift */,
+				8ED5AE8E1FA021B2002D0F06 /* Info.plist */,
+			);
+			path = HapticTouchbarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ED5AE6D1FA021B2002D0F06 /* HapticTouchbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED5AE911FA021B2002D0F06 /* Build configuration list for PBXNativeTarget "HapticTouchbar" */;
+			buildPhases = (
+				8ED5AE6A1FA021B2002D0F06 /* Sources */,
+				8ED5AE6B1FA021B2002D0F06 /* Frameworks */,
+				8ED5AE6C1FA021B2002D0F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HapticTouchbar;
+			productName = HapticTouchbar;
+			productReference = 8ED5AE6E1FA021B2002D0F06 /* HapticTouchbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ED5AE7C1FA021B2002D0F06 /* HapticTouchbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED5AE941FA021B2002D0F06 /* Build configuration list for PBXNativeTarget "HapticTouchbarTests" */;
+			buildPhases = (
+				8ED5AE791FA021B2002D0F06 /* Sources */,
+				8ED5AE7A1FA021B2002D0F06 /* Frameworks */,
+				8ED5AE7B1FA021B2002D0F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ED5AE7F1FA021B2002D0F06 /* PBXTargetDependency */,
+			);
+			name = HapticTouchbarTests;
+			productName = HapticTouchbarTests;
+			productReference = 8ED5AE7D1FA021B2002D0F06 /* HapticTouchbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8ED5AE871FA021B2002D0F06 /* HapticTouchbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED5AE971FA021B2002D0F06 /* Build configuration list for PBXNativeTarget "HapticTouchbarUITests" */;
+			buildPhases = (
+				8ED5AE841FA021B2002D0F06 /* Sources */,
+				8ED5AE851FA021B2002D0F06 /* Frameworks */,
+				8ED5AE861FA021B2002D0F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ED5AE8A1FA021B2002D0F06 /* PBXTargetDependency */,
+			);
+			name = HapticTouchbarUITests;
+			productName = HapticTouchbarUITests;
+			productReference = 8ED5AE881FA021B2002D0F06 /* HapticTouchbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ED5AE661FA021B2002D0F06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Olivier Piau";
+				TargetAttributes = {
+					8ED5AE6D1FA021B2002D0F06 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					8ED5AE7C1FA021B2002D0F06 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8ED5AE6D1FA021B2002D0F06;
+					};
+					8ED5AE871FA021B2002D0F06 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8ED5AE6D1FA021B2002D0F06;
+					};
+				};
+			};
+			buildConfigurationList = 8ED5AE691FA021B2002D0F06 /* Build configuration list for PBXProject "HapticTouchbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ED5AE651FA021B2002D0F06;
+			productRefGroup = 8ED5AE6F1FA021B2002D0F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ED5AE6D1FA021B2002D0F06 /* HapticTouchbar */,
+				8ED5AE7C1FA021B2002D0F06 /* HapticTouchbarTests */,
+				8ED5AE871FA021B2002D0F06 /* HapticTouchbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ED5AE6C1FA021B2002D0F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED5AE741FA021B2002D0F06 /* Assets.xcassets in Resources */,
+				8ED5AE771FA021B2002D0F06 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED5AE7B1FA021B2002D0F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED5AE861FA021B2002D0F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ED5AE6A1FA021B2002D0F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED5AE721FA021B2002D0F06 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED5AE791FA021B2002D0F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED5AE821FA021B2002D0F06 /* HapticTouchbarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED5AE841FA021B2002D0F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED5AE8D1FA021B2002D0F06 /* HapticTouchbarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ED5AE7F1FA021B2002D0F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ED5AE6D1FA021B2002D0F06 /* HapticTouchbar */;
+			targetProxy = 8ED5AE7E1FA021B2002D0F06 /* PBXContainerItemProxy */;
+		};
+		8ED5AE8A1FA021B2002D0F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ED5AE6D1FA021B2002D0F06 /* HapticTouchbar */;
+			targetProxy = 8ED5AE891FA021B2002D0F06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8ED5AE751FA021B2002D0F06 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED5AE761FA021B2002D0F06 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ED5AE8F1FA021B2002D0F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8ED5AE901FA021B2002D0F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		8ED5AE921FA021B2002D0F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HapticTouchbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.HapticTouchbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8ED5AE931FA021B2002D0F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HapticTouchbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.HapticTouchbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8ED5AE951FA021B2002D0F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HapticTouchbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.HapticTouchbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticTouchbar.app/Contents/MacOS/HapticTouchbar";
+			};
+			name = Debug;
+		};
+		8ED5AE961FA021B2002D0F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HapticTouchbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.HapticTouchbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticTouchbar.app/Contents/MacOS/HapticTouchbar";
+			};
+			name = Release;
+		};
+		8ED5AE981FA021B2002D0F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HapticTouchbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.HapticTouchbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HapticTouchbar;
+			};
+			name = Debug;
+		};
+		8ED5AE991FA021B2002D0F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HapticTouchbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.HapticTouchbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HapticTouchbar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ED5AE691FA021B2002D0F06 /* Build configuration list for PBXProject "HapticTouchbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED5AE8F1FA021B2002D0F06 /* Debug */,
+				8ED5AE901FA021B2002D0F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED5AE911FA021B2002D0F06 /* Build configuration list for PBXNativeTarget "HapticTouchbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED5AE921FA021B2002D0F06 /* Debug */,
+				8ED5AE931FA021B2002D0F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8ED5AE941FA021B2002D0F06 /* Build configuration list for PBXNativeTarget "HapticTouchbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED5AE951FA021B2002D0F06 /* Debug */,
+				8ED5AE961FA021B2002D0F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8ED5AE971FA021B2002D0F06 /* Build configuration list for PBXNativeTarget "HapticTouchbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED5AE981FA021B2002D0F06 /* Debug */,
+				8ED5AE991FA021B2002D0F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ED5AE661FA021B2002D0F06 /* Project object */;
+}
